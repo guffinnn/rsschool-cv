@@ -1,11 +1,10 @@
 ## Daniil Dashkevich
 
----
-
 ### About Me
 
-| I am a passionate and motivated junior developer with 4 months of experience. My goal is to continue learning and growing in the field of web development. I thrive on challenges and enjoy solving problems. My curiosity drives me to explore new technologies and stay up-to-date with industry trends.   | ![Фотография](assets/photo_2023-08-11_18-49-58.jpg) | 
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
+| About                                                                                                                                                                                                                                                                                                          | Me)                                                 |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
+| I am a passionate and motivated junior developer with 4 months of experience. My goal is to continue learning and growing in the field of web development. I thrive on challenges and enjoy solving problems. My curiosity drives me to explore new technologies and stay up-to-date with industry trends.     | ![Фотография](assets/photo_2023-08-11_18-49-58.jpg) | 
 
 ---
 
@@ -23,17 +22,20 @@ Age: 18 years
 
 ### Contact Information
 
-Phone: +375447563953
+| Type     | Contacts                   |
+|----------|----------------------------|
+| Phone    | +375447563953              |
+| Telegram | @guffinnn                  |
+| Email    | danidashkevichit@gmail.com |
 
-Telegram: @guffinnn
+| Description | Links                                                  |
+|-------------|--------------------------------------------------------|
+| Resume      | [Frontend developer](https://career.habr.com/guffinnn) |
+| GitHub      | [guffinnn](https://github.com/guffinnn)                |
+| Behance     | [daniildashkev](https://www.behance.net/daniildashkev) |
 
-Email: danidashkevichit@gmail.com
-
-My resume on Habr career: [Frontend developer](https://career.habr.com/guffinnn)
-
-My account on GitHub: [guffinnn](https://github.com/guffinnn)
-
-My portfolio on Behance: [daniildashkev](https://www.behance.net/daniildashkev)
+ 
+ 
 
 
 ### Languages
@@ -80,3 +82,38 @@ My portfolio on Behance: [daniildashkev](https://www.behance.net/daniildashkev)
         }
         return nodes[0];
     }
+
+##  Work Experience
+
+### Kwork
+
+|                                   | Information                                                                                                                                                                                                                                                                                                                                                     |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Time                              | November 2023 - February 2024 (4 months)                                                                                                                                                                                                                                                                                                                        |
+| Specialization                    | Freelance Web Developer                                                                                                                                                                                                                                                                                                                                         |
+| Location                          | Minsk, Belarus                                                                                                                                                                                                                                                                                                                                                  |
+| Responsibilities and Achievements | Developed the client-side of a customer database management system (DBMS) for a company with a documented SRS, a designed Figma mockup, a modeled database using ER tools, and frontend implementation of the web application. Developed the user interface (UI) design for a freight transportation company with a documented SRS and implementation in Figma. |
+| Soft Skills Used                  | Communication, Literacy, Responsibility, Critical and Analytical Thinking                                                                                                                                                                                                                                                                                       |
+| Technical Skills Used             | Software Requirements Management, Information System Design, ER Diagrams, Figma Design, Prototyping, React, Adaptive Layout, Cross-Browser Layout, SQL, Technical Documentation                                                                                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                           |
+
+
+## Education
+
+### Belarusian State University of Informatics and Radioelectronics (BSUIR), Minsk Radiotechnical College
+
+|                                   | Information                                                                                                                                                                                                                                                                                                                                                     |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Time                              | September 2021 - June 2025                                                                                                                                                                                                                                                                                                                                      |
+| Specialization                    | Software Development and Maintenance                                                                                                                                                                                                                                                                                                                            |
+| Location                          | Minsk, Belarus                                                                                                                                                                                                                                                                                                                                                  |
+| Specialization and Achievements   | Acquired skills in gathering and formalizing software requirements, system design using CASE tools, writing user stories/use cases and documenting requirements specifications, developing software using JavaScript (React), HTML, CSS, C#, ASP.NET, SQL, testing software using Selenium, and documenting reports including bug reports, user manuals, etc.   |
+
+##  Additional Education
+
+| Platform  | Period            | Course                                        | Enhanced Skills                                                                                                                                               |
+|-----------|-------------------|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Udemy     | August 2023 - Now | React – The Complete Guide 2024 (incl. Redux) | TypeScript, React, React Router, Redux, Webpack, Node.js                                                                                                      |
+| Netology  | May 2024          | System analyst                                | Requirements Management, UML, BPMN 2.0, ER diagrams, Agile, Waterfall, Selenium, REST/SOAP                                                                    |
+| Udemy     | February 2024     | UX/UI                                         | UI/UX design, Web design, Interface development, Figma Design, Prototyping, Wireframes, Adaptive design, Adobe Photoshop, Adobe Illustrator, Interface design |
+| SoloLearn | August 2023       | SQL Fundamentals                              | SQL, ER diagrams, Oracle, PostgreSQL, MySQL, Microsoft SQL Server, JSON, API Interfaces, HTTP, Postman                                                        |
+| SoloLearn | August 2023       | JavaScript Intermediate                       | JavaScript, HTML, CSS, Responsive design, Web development, Cross-browser compatibility, Semantic markup, BEM, Twitter Bootstrap, JQuery                       |
