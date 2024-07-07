@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme_color" content="#FFFFFF">
+  <title>CV#3. HTML&CSS</title>
+  <!--STYLE.css-->
+  <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--ASIDE-->
+<aside class="aside">
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="item"><a href="#about" class="link">About Me</a></li>
+      <li class="item"><a href="#location" class="link">Location</a></li>
+      <li class="item"><a href="#age" class="link">Age and seniority</a></li>
+      <li class="item"><a href="#contact" class="link">Contact information</a></li>
+      <li class="item"><a href="#languages" class="link">Languages</a></li>
+      <li class="item"><a href="#skills" class="link">Professional skills</a></li>
+      <li class="item"><a href="#code" class="link">Code samples</a></li>
+      <li class="item"><a href="#work" class="link">Work experience</a></li>
+      <li class="item"><a href="#education" class="link">Education</a></li>
+      <li class="item"><a href="#additional" class="link">Additional education</a></li>
+    </ul>
+  </nav>
+</aside>
+<!--MAIN-->
+<main class="main">
+  <!--HEADER-->
+  <header class="main__header">
+    <h1>Daniil Dashkevich</h1>
+  </header>
+  <!--SECTION-->
+  <section class="main__section">
+    <!--ABOUT ME-->
+    <h2 id="about">About Me</h2>
+    <div class="block">
+      <p>I am a passionate and motivated junior developer with 4 months of experience. My goal is to continue learning and growing in the field of web development. I thrive on challenges and enjoy solving problems. My curiosity drives me to explore new technologies and stay up-to-date with industry trends.</p>
+      <img src="assets/photo_2023-08-11_18-49-58.jpg" alt="Фотография">
+    </div>
+
+    <!--LOCATION-->
+    <h2 id="location">Location</h2>
+    <p><span>Accommodation:</span> Belarus, Minsk</p>
+    <p><span>Operational readiness:</span> Ready for remote operation</p>
+
+    <!--AGE AND SENIORITY-->
+    <h2 id="age">Age and Seniority</h2>
+    <p><span>Experience:</span> 4 months</p>
+    <p><span>Age:</span> 18 years</p>
+
+    <!--CONTACT INFO-->
+    <h2 id="contact">Contact Information</h2>
+    <ul>
+      <li><span>Phone:</span> +375447563953</li>
+      <li><span>Telegram:</span> @guffinnn</li>
+      <li><span>Email:</span> danidashkevichit@gmail.com</li>
+    </ul>
+
+    <h2>Description and Links</h2>
+    <ul>
+      <li><span>Resume:</span> <a href="https://career.habr.com/guffinnn">Frontend developer</a></li>
+      <li><span>GitHub:</span> <a href="https://github.com/guffinnn">guffinnn</a></li>
+      <li><span>Behance:</span> <a href="https://www.behance.net/daniildashkev">daniildashkev</a></li>
+    </ul>
+
+    <!--LANGUAGES-->
+    <h2 id="languages">Languages</h2>
+    <ol>
+      <li><span>English:</span> Intermediate (B2+)</li>
+      <li><span>Russian:</span> Native</li>
+      <li><span>Belarus:</span> Native</li>
+    </ol>
+
+    <!--SKILLS-->
+    <h2 id="skills">Professional Skills</h2>
+    <ul>
+      <li>Web development</li>
+      <li>Adaptive layout</li>
+      <li>Crosspost</li>
+      <li>API design</li>
+      <li>Databases</li>
+      <li>SRS</li>
+      <li>Modeling of systems and processes</li>
+      <li>Prototyping</li>
+      <li>OOP</li>
+      <li>Flexible development methodologies</li>
+      <li>Manual testing</li>
+    </ul>
+
+    <!--CODE-->
+    <h2 id="code">Code Samples</h2>
+
+    <h3>Smallest possible sum (4 kyu)</h3>
+    <p><a href="https://www.codewars.com/kata/52f677797c461daaf7000740">Link on CodeWars</a></p>
+    <pre><code>
+function solution(numbers) {
+  let gcd = (a, b) => b ? gcd(b, a % b) : a;
+  return numbers.reduce(gcd) * numbers.length;
+}
+    </code></pre>
+
+    <h3>Fun with trees: array to tree (5 kyu)</h3>
+    <p><a href="https://www.codewars.com/kata/57e5a6a67fbcc9ba900021cd">Link on CodeWars</a></p>
+    <pre><code>
+function arrayToTree(array) {
+  if (array.length === 0) return undefined;
+  let nodes = array.map(value => new TreeNode(value));
+  for (let i = 0; i &lt; nodes.length; i++) {
+    nodes[i].left = nodes[2 * i + 1];
+    nodes[i].right = nodes[2 * i + 2];
+  }
+  return nodes[0];
+}
+    </code></pre>
+
+    <!--WORK-->
+    <h2 id="work">Work Experience</h2>
+
+    <h3>Kwork</h3>
+    <table class="table">
+      <thead>
+      <tr>
+        <th></th>
+        <th>Information</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Time</td>
+        <td>November 2023 - February 2024 (4 months)</td>
+      </tr>
+      <tr>
+        <td>Specialization</td>
+        <td>Freelance Web Developer</td>
+      </tr>
+      <tr>
+        <td>Location</td>
+        <td>Minsk, Belarus</td>
+      </tr>
+      <tr>
+        <td>Responsibilities and Achievements</td>
+        <td>Developed the client-side of a customer database management system (DBMS) for a company with a documented SRS, a designed Figma mockup, a modeled database using ER tools, and frontend implementation of the web application. Developed the user interface (UI) design for a freight transportation company with a documented SRS and implementation in Figma.</td>
+      </tr>
+      <tr>
+        <td>Soft Skills Used</td>
+        <td>Communication, Literacy, Responsibility, Critical and Analytical Thinking</td>
+      </tr>
+      <tr>
+        <td>Technical Skills Used</td>
+        <td>Software Requirements Management, Information System Design, ER Diagrams, Figma Design, Prototyping, React, Adaptive Layout, Cross-Browser Layout, SQL, Technical Documentation</td>
+      </tr>
+      </tbody>
+    </table>
+
+    <!--EDUCATION-->
+    <h2 id="education">Education</h2>
+
+    <h3>Belarusian State University of Informatics and Radioelectronics (BSUIR), Minsk Radiotechnical College</h3>
+    <table class="table">
+      <thead>
+      <tr>
+        <th></th>
+        <th>Information</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Time</td>
+        <td>September 2021 - June 2025</td>
+      </tr>
+      <tr>
+        <td>Specialization</td>
+        <td>Software Development and Maintenance</td>
+      </tr>
+      <tr>
+        <td>Location</td>
+        <td>Minsk, Belarus</td>
+      </tr>
+      <tr>
+        <td>Specialization and Achievements</td>
+        <td>Acquired skills in gathering and formalizing software requirements, system design using CASE tools, writing user stories/use cases and documenting requirements specifications, developing software using JavaScript (React), HTML, CSS, C#, ASP.NET, SQL, testing software using Selenium, and documenting reports including bug reports, user manuals, etc.</td>
+      </tr>
+      </tbody>
+    </table>
+
+    <!--ADDITIONAL-->
+    <h2 id="additional">Additional Education</h2>
+    <table class="table">
+      <thead>
+      <tr>
+        <th>Platform</th>
+        <th>Period</th>
+        <th>Course</th>
+        <th>Enhanced Skills</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Udemy</td>
+        <td>August 2023 - Now</td>
+        <td>React – The Complete Guide 2024 (incl. Redux)</td>
+        <td>TypeScript, React, React Router, Redux, Webpack, Node.js</td>
+      </tr>
+      <tr>
+        <td>Netology</td>
+        <td>May 2024</td>
+        <td>System analyst</td>
+        <td>Requirements Management, UML, BPMN 2.0, ER diagrams, Agile, Waterfall, Selenium, REST/SOAP</td>
+      </tr>
+      <tr>
+        <td>Udemy</td>
+        <td>February 2024</td>
+        <td>UX/UI</td>
+        <td>UI/UX design, Web design, Interface development, Figma Design, Prototyping, Wireframes, Adaptive design, Adobe Photoshop, Adobe Illustrator, Interface design</td>
+      </tr>
+      <tr>
+        <td>SoloLearn</td>
+        <td>August 2023</td>
+        <td>SQL Fundamentals</td>
+        <td>SQL, ER diagrams, Oracle, PostgreSQL, MySQL, Microsoft SQL Server, JSON, API Interfaces, HTTP, Postman</td>
+      </tr>
+      <tr>
+        <td>SoloLearn</td>
+        <td>August 2023</td>
+        <td>JavaScript Intermediate</td>
+        <td>JavaScript, HTML, CSS, Responsive design, Web development, Cross-browser compatibility, Semantic markup, BEM, Twitter Bootstrap, JQuery</td>
+      </tr>
+      </tbody>
+    </table>
+  </section>
+  <!--FOOTER-->
+  <footer class="main__footer">
+    <a href="https://github.com/guffinnn">GitHub</a>
+    <p>© 2024</p>
+    <div class="logo">
+      <a href="https://rs.school/courses/javascript-ru">
+        <img src="assets/rs-school-logo.svg" alt="Логотип Stage0">
+      </a>
+    </div>
+  </footer>
+</main>
+</body>
+</html>

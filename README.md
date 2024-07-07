@@ -1,2 +1,5 @@
-# rsschool-cv
-JS/FE Pre-School 2024Q2
+## My CV
+
+> [HTML & CSS](https://guffinnn.github.io/rsschool-cv/)
+> 
+> [CV](https://guffinnn.github.io/rsschool-cv/cv)
